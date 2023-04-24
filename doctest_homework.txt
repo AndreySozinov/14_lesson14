@@ -1,0 +1,7 @@
+>>> from Homework import give_me_number
+>>> give_me_number('5')
+5
+>>> give_me_number('5.5')
+5.5
+>>> give_me_number('five')
+Wrong value - could not convert string to float: 'five'

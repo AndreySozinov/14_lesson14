@@ -1,0 +1,11 @@
+>>> from Task01 import only_alphabet
+>>> only_alphabet('another fine myth')
+'another fine myth'
+>>> only_alphabet('Another fine myth')
+'another fine myth'
+>>> only_alphabet('Another- fine, myth.')
+'another fine myth'
+>>> only_alphabet('another fine mythРусский')
+'another fine myth'
+>>> only_alphabet('65_Another 570fine* myth.Русский')
+'another fine myth'
